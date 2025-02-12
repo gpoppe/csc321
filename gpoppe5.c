@@ -14,12 +14,13 @@ int main(void)
 
 	printf("the value of x is %d and it's address is %p \n",x,&x);
 
-	//scope statement
+	/*scope statement
 	{
 		int y = 10;
 	}
-	//printf("the value of y is %d \n",y);
-	
+	printf("the value of y is %d \n",y);
+	*/
+
 	for(i = 0; i < 10;i++)
 	{
 		printf("addresss of arr[%d] = %p \n",arr[i],&arr[i]);
