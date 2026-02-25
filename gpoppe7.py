@@ -11,4 +11,10 @@ elif x < 6:
 else:
     print("x is ",x," which is equal to 6")
 
+s = "string one"
+
+if s == "string two":
+    print("not the the string")
+else:
+    print("else statement")
 
